@@ -70,7 +70,6 @@ class App extends Component{
         api.getBottleList(aa,bb,cc)
             .then(res => {
                 const { groupByResults, results, totalCount } = res.body;
-                console.log(res.body);
                 this.setState({groups: groupByResults, bottles: results, totalCount:totalCount});
 
 
