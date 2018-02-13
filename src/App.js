@@ -140,7 +140,7 @@ class App extends Component{
 
                 <div className="searchResults">
 
-                    {this.state.totalCount === 0 && this.state.resultsPage > 1 ? <p>You've exceeded the maximum number of returned results (1000).</p>  : ""}
+                    {this.state.totalCount === 0 && this.state.resultsPage > 1 ? <p>You've exceeded the maximum number of returned results (1000/page 50).</p>  : ""}
 
                     {bottles.map((b,i) =>
                         <div className="card" key={i}>
