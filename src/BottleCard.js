@@ -23,19 +23,19 @@ class BottleCard extends Component{
     render() {
 
         return (
-           <div className="BottleMain">
-               <div className="LeftB">
-                   <img src={this.props.title.raw.tpthumbnailuri} alt={this.props.title.Title}/>
-               </div>
-               <div className="RightB">
-                   <a href={this.props.title.ClickUri} target="_blank"><p>{this.props.title.raw.tpnomdebouteille}</p></a>
-                   <p>{this.props.title.raw.tpcoteexpertsplitgroup}</p>
-                   <p> {this.props.title.raw.tpcepagenomsplitgroup ? this.props.title.raw.tpcepagenomsplitgroup.split(/;/).join(" ") : " "}</p>
-                   <p className="price">{this.CurrencyFormatted(this.props.title.raw.tpprixnum)}</p>
-                   <p>{this.props.title.raw.tppays}</p>
-                   <p>{this.props.title.raw.tpregion}</p>
-               </div>
-           </div>
+            <div className="BottleMain">
+                <div className="LeftB">
+                    <img src={this.props.title.raw.tpthumbnailuri} alt={this.props.title.Title}/>
+                </div>
+                <div className="RightB">
+                    <a href={this.props.title.ClickUri} target="_blank"><p>{this.props.title.raw.tpnomdebouteille}</p></a>
+                    <p>{this.props.title.raw.tpcoteexpertsplitgroup}</p>
+                    <p> {this.props.title.raw.tpcepagenomsplitgroup ? this.props.title.raw.tpcepagenomsplitgroup.split(/;/).join(" ") : " "}</p>
+                    <p className="price">{this.CurrencyFormatted(this.props.title.raw.tpprixnum)}</p>
+                    <p>{this.props.title.raw.tppays}</p>
+                    <p>{this.props.title.raw.tpregion}</p>
+                </div>
+            </div>
         )
     }
 

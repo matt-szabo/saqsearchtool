@@ -17,22 +17,22 @@ class Pagination extends Component {
 
     render() {
 
-    const pageNumbers = [];
+        const pageNumbers = [];
 
-    for (let i = 1; i <= Math.ceil(this.props.totalCount / this.props.npp); i++) {
-        pageNumbers.push(i);
-    }
+        for (let i = 1; i <= Math.ceil(this.props.totalCount / this.props.npp); i++) {
+            pageNumbers.push(i);
+        }
 
         return (
             <div className="paginator">
 
-                    {pageNumbers.map(number =>
+                {pageNumbers.map(number =>
                     <p className="pager"
-                    key={number}
-                    id={number}
-                    onClick={() => {this.localClick(number)}}
+                       key={number}
+                       id={number}
+                       onClick={() => {this.localClick(number)}}
                     >
-                    {number}
+                        {number}
                     </p>
 
                 )}

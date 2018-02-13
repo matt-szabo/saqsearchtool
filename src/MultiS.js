@@ -13,7 +13,7 @@ class MultiS extends React.Component {
     handleChange = selectedOption => {
         this.setState({ selectedOption });
     };
-    
+
     handleSelectChange = (value) => {
 
         this.setState({ value });
