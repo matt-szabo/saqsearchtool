@@ -1,4 +1,4 @@
-SAQ Search Tool
+# SAQ Search Tool
 
 https://saqsearchtool.herokuapp.com
 
@@ -12,10 +12,12 @@ In an attempt to review as much of the functionality the API offers the followin
 - filter for rated wines
 - modular components
 
-To run locally:
+## To run locally:
 
-git clone
+git clone git@github.com:matt-szabo/saqsearchtool.git
+<br>
 npm install
+<br>
 npm start
 
 
