@@ -59,7 +59,7 @@ p{
 }
 
 button {
-    background: #9D2D28;
+    background: #9d2d28;
     background-image: -webkit-linear-gradient(top, #9d2d28, #9D2D28);
 
     -webkit-border-radius: 2.8rem;
@@ -76,7 +76,7 @@ button {
 
 
 button:hover {
-    background: #fa3f3d;
+    background: #7f093e;
 
     text-decoration: none;
 
