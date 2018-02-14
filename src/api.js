@@ -4,7 +4,6 @@ import { API_HOST } from './config'
 class Api {
 
 
-
     getBottleList = (q,sortCriteria,firstResult) =>(
 
         superagent

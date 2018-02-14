@@ -1,0 +1,12 @@
+.pagination p {
+    color: black;
+    float: left;
+    text-decoration: none;
+    transition: background-color .2s;
+}
+
+.pagination p.active {
+    color: white;
+}
+
+.pagination p:hover:not(.active) {background-color: #ddd;}

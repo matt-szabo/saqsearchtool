@@ -154,7 +154,7 @@ class App extends Component{
 
                 <div className="pager">
                     <p>Page {this.state.resultsPage} of {Math.ceil(this.state.totalCount / 20)} </p>
-                    <Pagination totalCount={this.state.totalCount} npp="20" onPageClick={this.pageClick} />
+                    <Pagination totalCount={this.state.totalCount} npp="20" onPageClick={this.pageClick} currentPage={this.state.resultsPage}/>
                 </div>
             </div>
         )
