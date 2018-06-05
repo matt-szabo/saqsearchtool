@@ -20,6 +20,8 @@ npm install
 <br>
 npm start
 
+thanks!
+
 
 
 
